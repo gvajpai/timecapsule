@@ -1,0 +1,16 @@
+# Local configuration and logs (avoid committing personal paths)
+*.conf
+*.log
+*.lock
+
+# Temporary restore directories or test artifacts
+RESTORE_*/
+*.restored
+.inprogress_*/
+
+# Editor and OS files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
