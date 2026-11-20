@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg">
+    <img src="assets/logo-light.svg" alt="Time Capsule logo" width="360">
+  </picture>
+</p>
+
 # Time Capsule (`timecapsule.sh`)
 
 A lightweight, interactive Terminal UI (`whiptail`) incremental backup and recovery utility for **GNU/Linux**. Powered by `rsync --link-dest`, **Time Capsule** creates space-efficient, hard-linked point-in-time snapshots with automatic multi-tier retention pruning and single-file or full-snapshot restoration.
